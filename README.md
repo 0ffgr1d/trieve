@@ -30,3 +30,5 @@ python trieve.py -f users.txt -a samaccountname,description,pwdlastset -r . -e
   
 ### Example: 
 python trieve.py -f users.txt -a samaccountname,description,pwdlastset,useraccountcontrol,cn,accountexpires -r pwdlastset.20* -o expires.txt
+
+
