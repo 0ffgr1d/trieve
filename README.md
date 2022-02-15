@@ -19,16 +19,17 @@ trieve.py -f inputfile + parameters
   
  ### Example: 
  ##### python trieve.py -f users.txt -a samaccountname,pwdlastset,useraccountcontrol -r ^useraccountcontrol.DONT_EXPIRE  -v -e
-  
+ <img src ="Images/trieve%20viewobjectsslower.PNG" height="400" >
   
   
   
 ### Example: 
 ##### python trieve.py -f users.txt -a samaccountname,description,pwdlastset -r . -e
+<img src ="Images/trieve%20viewobjectsfast.PNG" height="400" >
 
   
   
 ### Example: 
 ##### python trieve.py -f users.txt -a samaccountname,description,pwdlastset,useraccountcontrol,cn,accountexpires -r pwdlastset.20* -o expires.txt
-
+<img src="Images/trieveexpires.PNG" height="500" >
 
