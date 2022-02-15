@@ -18,17 +18,17 @@ trieve.py -f inputfile + parameters
   ##### *Note: if you specify -v and -e this gives you the option to hit enter after each object to view slower*
   
  ### Example: 
- python trieve.py -f users.txt -a samaccountname,pwdlastset,useraccountcontrol -r ^useraccountcontrol.DONT_EXPIRE  -v -e
+ ##### python trieve.py -f users.txt -a samaccountname,pwdlastset,useraccountcontrol -r ^useraccountcontrol.DONT_EXPIRE  -v -e
   
   
   
   
 ### Example: 
-python trieve.py -f users.txt -a samaccountname,description,pwdlastset -r . -e
+##### python trieve.py -f users.txt -a samaccountname,description,pwdlastset -r . -e
 
   
   
 ### Example: 
-python trieve.py -f users.txt -a samaccountname,description,pwdlastset,useraccountcontrol,cn,accountexpires -r pwdlastset.20* -o expires.txt
+##### python trieve.py -f users.txt -a samaccountname,description,pwdlastset,useraccountcontrol,cn,accountexpires -r pwdlastset.20* -o expires.txt
 
 
