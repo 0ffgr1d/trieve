@@ -1,12 +1,13 @@
 # trieve
-A python script to search through AD Users attributes from a file using regex
+A python script to search through Active Directory Users attributes from a file using regex.   
+> trieve: To get or find something for someone.
 
 
 ## Purpose
 This tool was designed for searching for specific Active Directory user attributes within an AD users file. Within an Active Directory environment typically the operator would query and write the AD Users information to a file, then download the file to your local machine. Using the script the operator can begin searching through the file for specific accounts or account attributes.
 
 ## How to use
-trieve.py -f inputfile + parameters
+ #### *trieve.py -f inputfile + parameters*
 
 ## Parameters
 - -f = input the adusers.txt file
